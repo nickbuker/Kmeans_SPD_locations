@@ -8,7 +8,7 @@ def k_means(X, k=5, max_iter=1000):
     """
     Inputs:
     X = 2 x m dataframe of latitude and longitude (float)
-    k = number of centroids (int)
+    k = number of centroids to use (int)
     max_iter = maximum number of iteratations (int)
     Return:
     centoids = dataframe latitude and longitude of centroids (float)
