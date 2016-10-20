@@ -68,5 +68,7 @@ def k_means(X, k=5, max_iter=1000):
 <br>
 <img src="images/logos/seattle.png" width="120">
 <img src="images/logos/python.png" width="120">
+<img src="images/logos/atom.png" width="120">
 <img src="images/logos/matplotlib.png" width="120">
 <img src="images/logos/jupyter.png" width="120">
+<img src="images/logos/linux.png" width="120">
