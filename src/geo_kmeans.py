@@ -25,7 +25,6 @@ def k_means(X, k=5, max_iter=1000):
     longs_cent = [long_ for long_ in random.sample(X.Longitude, k)]
     centroids = zip(lats_cent, longs_cent)
 
-
     for i in xrange(max_iter):
         clusters = defaultdict(list)
         # Assign each point to nearest cluster for nearest centroid
@@ -40,7 +39,7 @@ def k_means(X, k=5, max_iter=1000):
             new_centroid = np.mean(pts, axis=0)
             new_centroids.append(tuple(new_centroid))
 
-        # Stop iteracting if optimized else use new centroids for next iter
+        # Stop iterating if optimized else use new centroids for next iter
         if set(new_centroids) == set(centroids):
             break
         else:
